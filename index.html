@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepThought</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <krev-navbar></krev-navbar>
+    <krev-sidebar></krev-sidebar>
+    <krev-right-sidebar></krev-right-sidebar>
+
+    <div class="home">
+        <div class="home-header">
+            <h1 class="title">Technical Project Management</h1>
+            <button class="submit-task-btn">Submit Task</button>
+        </div>
+        <div class="home-subheader">
+            <div class="home-subheader-title">Explore the world of management</div>
+            <div class="home-subheader-subtitle">
+                As a project manager, you play an important reole in leading a project through initiation, planning,
+                execution, monitoring, controlling and completion. How? Do you want to manage each and every step of
+                your life?
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="body-card">
+                <div class="card">
+                    <div class="card-header">
+                        <span>Technical Project Management</span>
+                        <div class="info-icon">i</div>
+                    </div>
+                    <div class="card-body">
+                        <p class="description">Description: Story of Alignment Scope of Agility Specific Accountable
+                            Staggering
+                            Approach
+                        </p>
+                        <div class="video-container">
+                            <img src="https://res.cloudinary.com/dtsuvx8dz/image/upload/v1721671062/sqmctyk12lm7si3qvc42.png"
+                                height="225px""></iframe>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class=" card-container">
+                            <div class="card-header">
+                                <span>Threadbuild</span>
+                                <div class="card-info-icon">i</div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-description">Description: Watch the video and threadbuild, and jot out
+                                    key
+                                    threads while
+                                    watching
+                                    the video</p>
+                                <div class="card-thread">
+                                    <div class="card-thread-header" onclick="toggleThread(this)">
+                                        <h3>Thread A</h3>
+                                        <span class="card-thread-toggle">▼</span>
+                                    </div>
+                                    <div class="card-thread-content">
+                                        <input type="text" class="card-input-box" placeholder="Sub thread 1">
+                                        <input type="text" class="card-input-box" placeholder="Sub Interpretation 1">
+                                        <div class="card-icon-row">
+                                            <div class="card-icon"></div>
+                                            <div class="card-icon"></div>
+                                            <div class="card-icon"></div>
+                                            <div class="card-icon"></div>
+                                            <button class="card-select-button">Select Categ v</button>
+                                            <button class="card-select-button">Select Proces v</button>
+                                        </div>
+                                    </div>
+                                    <button class="card-add-button">+ Sub-thread</button>
+                                    <div class=" card-input-box">
+                                        <p>Summary for Thread A
+                                        </p>
+                                        <textarea style="width: 100%;" name="" id=""></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card part 2  -->
+                    <div class="body-card2">
+                        <div class="card2">
+
+                            <div class="card-header">
+                                <span>Structure your Pointers</span>
+                                <div class="card-info-icon">i</div>
+                            </div>
+
+
+                            <div class="card2-body">
+                                <p class="card2-description">Write a 300 - 400 word article from your thread . Publish
+                                    your
+                                    understanding
+                                    and showcase your understanding to the entire world</p>
+                                <label for="" class="card2-label"> Title</label>
+                                <br>
+                                <input type="text" class="card2-input" placeholder="">
+
+                                <label class="card2-label"> Content</label>
+                                <img src="https://res.cloudinary.com/dtsuvx8dz/image/upload/v1721672824/m7eqhdzuwtaz71wzf9dt.png"
+                                    alt="">
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="card2">
+                            <div class="card-header">
+                                <span>4SA Method</span>
+                                <div class="card-info-icon">i</div>
+                            </div>
+                            <div class="card2-body">
+                                <p class="card2-description">To Explore more read more</p>
+                                <div class="card2-section">
+                                    <div class="card2-section-header" onclick="toggleSection(this)">
+                                        <span>Introduction</span>
+                                        <span class="toggle-icon">▼</span>
+                                    </div>
+                                    <div class="card2-section-content">
+                                        <p>The 4SA Method , How to bring a idea into progress ?</p>
+                                        <div class="card2-see-more">See More</div>
+                                    </div>
+                                </div>
+                                <div class="card2-section">
+                                    <div class="card2-section-header" onclick="toggleSection(this)">
+                                        <span>Thread A</span>
+                                        <span class="toggle-icon">▼</span>
+                                    </div>
+                                    <div class="card2-section-content">
+                                        <p>How are you going to develop your strategy? Which method are you going to use
+                                            to
+                                            develop a strategy?
+                                            What if the project is lengthy?</p>
+                                        <div class="card2-see-more">See More</div>
+                                    </div>
+                                </div>
+                                <div class="card2-example">
+                                    <h3>Example 1</h3>
+                                    <p>You have a concept , How will you put into progress?</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-btn-con">
+                <button class="help-btn"><img src="/assets/questionIcon.png" loading="lazy" />
+                </button>
+                <button class="group-btn"><img src="/assets/groupIcon.png" loading="lazy" />
+                </button>
+                <button class="calendar-btn"><img src="/assets/calendarIcon.png" loading="lazy" />
+                </button>
+            </div>
+
+
+            <script src="index.js" type="module"></script>
+            <script>
+                function toggleThread(header) {
+                    const content = header.nextElementSibling;
+                    const toggle = header.querySelector('.card-thread-toggle');
+
+                    content.classList.toggle('active');
+                    toggle.classList.toggle('active');
+                }
+            </script>
+            <script>
+                function toggleSection(header) {
+                    const content = header.nextElementSibling;
+                    const toggleIcon = header.querySelector('.toggle-icon');
+                    if (content.style.display === 'block') {
+                        content.style.display = 'none';
+                        toggleIcon.textContent = '▼';
+                    } else {
+                        content.style.display = 'block';
+                        toggleIcon.textContent = '▲';
+                    }
+                }
+            </script>
+</body>
+
+</html>
